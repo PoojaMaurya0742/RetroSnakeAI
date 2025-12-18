@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retro Snake AI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <header class="game-header">
+      <h1 class="game-title">RETRO SNAKE AI</h1>
+      <div class="game-info">
+        <div class="score-display">
+          <span class="label">SCORE:</span>
+          <span id="score" class="score-value">0</span>
+        </div>
+        <div class="mode-display">
+          <span class="label">MODE:</span>
+          <span id="mode" class="mode-value">HUMAN</span>
+        </div>
+      </div>
+    </header>
+
+    <main class="game-area">
+      <canvas id="gameCanvas" width="400" height="400"></canvas>
+      <div class="game-status">
+        <div id="gameMessage" class="game-message"></div>
+      </div>
+    </main>
+
+    <footer class="game-controls">
+      <button id="toggleMode" class="control-btn">TOGGLE AI</button>
+      <button id="pauseGame" class="control-btn">PAUSE</button>
+      <button id="restartGame" class="control-btn">RESTART</button>
+    </footer>
+
+    <div class="instructions">
+      <p>Use ARROW KEYS or WASD to control the snake</p>
+      <p>Press SPACE to toggle between Human and AI modes</p>
+      <p>Eat food to grow and increase your score!</p>
+    </div>
+  </div>
+
+  <!-- Game Scripts -->
+  <script src="game.js"></script>
+  <script src="ai.js"></script>
+  <script src="script.js"></script>
+
+  <footer class="game-footer">
+  <p>Built with Kiro · Retro Revival Challenge</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+/* Retro Arcade Snake Game Styles */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0a0a0a;
+    color: #00ff00;
+    font-family: 'Orbitron', 'Courier New', monospace;
+    font-weight: 400;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: 
+        radial-gradient(circle at 25% 25%, #001100 0%, transparent 50%),
+        radial-gradient(circle at 75% 75%, #000011 0%, transparent 50%);
+}
+
+.game-container {
+    background: #111111;
+    border: 3px solid #00ff00;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 
+        0 0 20px #00ff0050,
+        inset 0 0 20px #00ff0020;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Header Styles */
+.game-header {
+    margin-bottom: 20px;
+}
+
+.game-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #00ff00;
+    text-shadow: 
+        0 0 10px #00ff00,
+        0 0 20px #00ff0080,
+        0 0 30px #00ff0060;
+    margin-bottom: 15px;
+    letter-spacing: 3px;
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000;
+    border: 2px solid #00ff00;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.score-display, .mode-display {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.label {
+    font-weight: 700;
+    color: #00cccc;
+    font-size: 0.9rem;
+}
+
+.score-value, .mode-value {
+    font-weight: 700;
+    color: #ffff00;
+    font-size: 1.1rem;
+    text-shadow: 0 0 5px currentColor;
+}
+
+/* Game Area */
+.game-area {
+    margin: 20px 0;
+}
+
+#gameCanvas {
+    background: #000000;
+    border: 3px solid #00ff00;
+    border-radius: 4px;
+    box-shadow: 
+        0 0 15px #00ff0040,
+        inset 0 0 10px #00ff0020;
+    display: block;
+    margin: 0 auto;
+}
+
+.game-status {
+    margin-top: 15px;
+    min-height: 25px;
+}
+
+.game-message {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #ff0000;
+    text-shadow: 0 0 10px #ff0000;
+    animation: pulse 1s infinite alternate;
+}
+
+@keyframes pulse {
+    from { opacity: 0.7; }
+    to { opacity: 1; }
+}
+
+/* Controls */
+.game-controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.control-btn {
+    background: #000000;
+    color: #00ff00;
+    border: 2px solid #00ff00;
+    padding: 12px 20px;
+    font-family: 'Orbitron', monospace;
+    font-weight: 700;
+    font-size: 0.9rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    min-width: 100px;
+}
+
+.control-btn:hover {
+    background: #00ff0020;
+    box-shadow: 0 0 10px #00ff0060;
+    transform: translateY(-2px);
+}
+
+.control-btn:active {
+    transform: translateY(0);
+    box-shadow: 0 0 5px #00ff0040;
+}
+
+.control-btn:focus {
+    outline: none;
+    box-shadow: 0 0 15px #00ff0080;
+}
+
+/* Instructions */
+.instructions {
+    margin-top: 20px;
+    padding: 15px;
+    background: #000000;
+    border: 1px solid #00ff0060;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    line-height: 1.4;
+}
+
+.instructions p {
+    margin: 5px 0;
+    color: #00cccc;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .game-container {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    .game-title {
+        font-size: 2rem;
+        letter-spacing: 2px;
+    }
+    
+    .game-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .control-btn {
+        padding: 10px 15px;
+        font-size: 0.8rem;
+        min-width: 80px;
+    }
+    
+    #gameCanvas {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Retro CRT Effect (Optional) */
+.game-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(
+        transparent 50%,
+        rgba(0, 255, 0, 0.03) 50%
+    );
+    background-size: 100% 4px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Glowing border animation */
+@keyframes borderGlow {
+    0%, 100% { border-color: #00ff00; }
+    50% { border-color: #00cc00; }
+}
+
+.game-container {
+    animation: borderGlow 3s ease-in-out infinite;
+}

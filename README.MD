@@ -62,6 +62,6 @@ AI random move nahi karta, **safest next move calculate karta hai real-time**.
 1. **Clone the repo:**  
    ```bash
    git clone https://github.com/PoojaMaurya0742/RetroSnakeAI.git
-Open index.html in browser (Chrome/Edge recommended).
+Open index.html in your browser (Chrome/Edge recommended).
 
 Play in human mode or toggle AI mode.

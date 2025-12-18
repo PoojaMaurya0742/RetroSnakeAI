@@ -1,6 +1,6 @@
 # Retro Snake AI 🐍
 
-Classic Snake game recreated with an AI-powered autonomous mode using **Kiro**.
+Classic Snake game with an AI-powered autonomous mode using **Kiro**.
 
 ---
 
@@ -16,69 +16,11 @@ Classic Snake game recreated with an AI-powered autonomous mode using **Kiro**.
 
 ## 🕹 Features
 
-- **Human Mode:** Play using arrow keys or WASD.  
-- **AI Mode:** Autonomous snake decisions based on game state.  
-- **Real-time score tracking** to monitor performance.  
-- **Pause & Restart controls** for better gameplay management.  
-- **Retro grid-based UI** for that classic feel.
-
----
-
-## 🤖 AI Twist
-
-The AI snake uses **game state awareness**:
-
-- Food position  
-- Wall proximity  
-- Self-collision  
-
-Instead of moving randomly, it **calculates the safest next move** in real-time.
-
-**Kiro’s Role:**
-
-- Generate game architecture  
-- Design AI decision logic  
-- Accelerate debugging & refactoring  
-- Produce structured documentation
-
----
-
-## 🛠 Tech Stack
-
-- HTML5 Canvas  
-- CSS3  
-- Vanilla JavaScript  
-- **Kiro** for AI-assisted development
-
----
-
-
-
-📂 Project Structure
-RetroSnakeAI/
-├─ index.html
-├─ style.css
-├─ game.js
-├─ ai.js
-├─ script.js
-├─ settings.json
-├─ README.md
-├─ design.md
-├─ prompts.md
-├─ requirements.md
-├─ tasks.md
-├─ Snake_game.png
-├─ snake_game_example.png
-
------------
-
-## 🕹 Features
-
 - **Human Mode:** Arrow keys or WASD se khelo.  
 - **AI Mode:** Snake apne aap safe moves choose karta hai.  
 - **Real-time score tracking** for performance monitoring.  
 - **Pause & Restart controls** for better gameplay.  
-- **Retro grid-based UI** for classic feel.  
+- **Retro grid-based UI** for classic feel.
 
 ---
 
@@ -122,14 +64,4 @@ AI random move nahi karta, **safest next move calculate karta hai real-time**.
    git clone https://github.com/PoojaMaurya0742/RetroSnakeAI.git
 Open index.html in browser (Chrome/Edge recommended).
 
-Play human mode or toggle AI mode.
-
---------------------
-
-📌 Repository
-
-Check out the full code and documentation on **https://github.com/PoojaMaurya0742/RetroSnakeAI.git**
-
-
-
-
+Play in human mode or toggle AI mode.

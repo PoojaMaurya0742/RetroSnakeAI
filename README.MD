@@ -52,13 +52,7 @@ Instead of moving randomly, it **calculates the safest next move** in real-time.
 
 ---
 
-## 🚀 How to Run
 
-1. **Clone the repo:**
-   ```bash
-   git clone https://github.com/PoojaMaurya0742/RetroSnakeAI.git
-
-----
 
 📂 Project Structure
 RetroSnakeAI/
@@ -135,6 +129,7 @@ Play human mode or toggle AI mode.
 📌 Repository
 
 Check out the full code and documentation on **https://github.com/PoojaMaurya0742/RetroSnakeAI.git**
+
 
 
 

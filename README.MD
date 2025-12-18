@@ -6,7 +6,7 @@ Classic Snake game recreated with an AI-powered autonomous mode using **Kiro**.
 
 ## 🎮 Demo Screenshots
 
-![Gameplay](Snake_game_Ai.png)  
+![Gameplay](snake_game_Ai.png)  
 *Human & AI mode in action.*
 
 ![Controls](snake_game_human.png)  
@@ -81,3 +81,4 @@ RetroSnakeAI/
 📌 Repository
 
 Check out the full code and documentation on **https://github.com/PoojaMaurya0742/RetroSnakeAI.git**
+

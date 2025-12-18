@@ -4,6 +4,9 @@ Classic Snake game with an AI-powered autonomous mode using **Kiro**.
 
 ---
 
+**Check My Blog:https://builder.aws.com/content/370zvKCs0duHx3wiHRiFQFGOfIN/retro-snake-ai-classic-snake-with-ai-twist-using-kiro**
+
+-----
 ## 🎮 Demo Screenshots
 
 ![Gameplay](snake_game_Ai.png)  
@@ -65,3 +68,4 @@ AI random move nahi karta, **safest next move calculate karta hai real-time**.
 Open index.html in your browser (Chrome/Edge recommended).
 
 Play in human mode or toggle AI mode.
+

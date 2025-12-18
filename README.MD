@@ -1,20 +1,83 @@
-# Retro Snake AI
+# Retro Snake AI 🐍
 
-A classic Snake game with AI capabilities.
+Classic Snake game recreated with an AI-powered autonomous mode using **Kiro**.
 
-## Features
-- Manual control with arrow keys
-- AI mode that plays automatically
-- Score tracking with high score persistence
-- Sound effects
-- Pause functionality
-- Retro green-on-black theme
+---
 
-## How to Play
-- Use arrow keys to control the snake
-- Eat the red food to grow and increase score
-- Avoid walls and your own body
-- Toggle AI to let the computer play
-- Pause anytime with the pause button
+## 🎮 Demo Screenshots
 
-Enjoy the game!
+![Gameplay](Snake_game_Ai.png)  
+*Human & AI mode in action.*
+
+![Controls](snake_game_human.png)  
+*Arrow keys / WASD for human mode, AI toggle for autonomous play.*
+
+---
+
+## 🕹 Features
+
+- **Human Mode:** Play using arrow keys or WASD.  
+- **AI Mode:** Autonomous snake decisions based on game state.  
+- **Real-time score tracking** to monitor performance.  
+- **Pause & Restart controls** for better gameplay management.  
+- **Retro grid-based UI** for that classic feel.
+
+---
+
+## 🤖 AI Twist
+
+The AI snake uses **game state awareness**:
+
+- Food position  
+- Wall proximity  
+- Self-collision  
+
+Instead of moving randomly, it **calculates the safest next move** in real-time.
+
+**Kiro’s Role:**
+
+- Generate game architecture  
+- Design AI decision logic  
+- Accelerate debugging & refactoring  
+- Produce structured documentation
+
+---
+
+## 🛠 Tech Stack
+
+- HTML5 Canvas  
+- CSS3  
+- Vanilla JavaScript  
+- **Kiro** for AI-assisted development
+
+---
+
+## 🚀 How to Run
+
+1. **Clone the repo:**
+   ```bash
+   **git clone https://github.com/PoojaMaurya0742/RetroSnakeAI.git**
+
+----
+
+📂 Project Structure
+RetroSnakeAI/
+├─ index.html
+├─ style.css
+├─ game.js
+├─ ai.js
+├─ script.js
+├─ settings.json
+├─ README.md
+├─ design.md
+├─ prompts.md
+├─ requirements.md
+├─ tasks.md
+├─ Snake_game.png
+├─ snake_game_example.png
+
+-----------
+
+📌 Repository
+
+Check out the full code and documentation on **https://github.com/PoojaMaurya0742/RetroSnakeAI.git**

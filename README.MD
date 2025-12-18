@@ -78,7 +78,62 @@ RetroSnakeAI/
 
 -----------
 
+## 🕹 Features
+
+- **Human Mode:** Arrow keys or WASD se khelo.  
+- **AI Mode:** Snake apne aap safe moves choose karta hai.  
+- **Real-time score tracking** for performance monitoring.  
+- **Pause & Restart controls** for better gameplay.  
+- **Retro grid-based UI** for classic feel.  
+
+---
+
+## 🤖 AI Logic
+
+AI snake **game state awareness** use karta hai:  
+
+- Food position  
+- Wall proximity  
+- Self-collision  
+
+AI random move nahi karta, **safest next move calculate karta hai real-time**.
+
+**Kiro’s role:** Game architecture, AI logic, debugging, refactoring aur documentation me help.
+
+---
+
+## 🛠 Tech Stack
+
+- HTML5 Canvas  
+- CSS3  
+- Vanilla JavaScript  
+- **Kiro** (AI-assisted dev tool)
+
+---
+
+## 📂 File Roles
+
+| File       | Role |
+|------------|------|
+| game.js    | Snake, food, score, canvas logic (class definitions) |
+| ai.js      | AI decisions (direction logic) |
+| script.js  | Controller / Orchestrator / Runtime engine |
+
+---
+
+## 🚀 How to Run
+
+1. **Clone the repo:**  
+   ```bash
+   git clone https://github.com/PoojaMaurya0742/RetroSnakeAI.git
+Open index.html in browser (Chrome/Edge recommended).
+
+Play human mode or toggle AI mode.
+
+--------------------
+
 📌 Repository
 
 Check out the full code and documentation on **https://github.com/PoojaMaurya0742/RetroSnakeAI.git**
+
 

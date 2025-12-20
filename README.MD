@@ -4,8 +4,9 @@ Classic Snake game with an AI-powered autonomous mode using **Kiro**.
 
 ---
 
-**Check My Blog:https://builder.aws.com/content/370zvKCs0duHx3wiHRiFQFGOfIN/retro-snake-ai-classic-snake-with-ai-twist-using-kiro**
-**Website URL : https://lively-souffle-21a7ae.netlify.app/**
+*Check My Blog:https://builder.aws.com/content/370zvKCs0duHx3wiHRiFQFGOfIN/retro-snake-ai-classic-snake-with-ai-twist-using-kiro*
+-----------
+*Website URL : https://lively-souffle-21a7ae.netlify.app/*
 -----
 ## 🎮 Demo Screenshots
 
